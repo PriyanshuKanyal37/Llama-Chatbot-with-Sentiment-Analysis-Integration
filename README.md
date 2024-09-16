@@ -8,16 +8,24 @@ https://colab.research.google.com/drive/1MEtBrlkMndluNsyiiKfh1rj6WXGJXOQp#scroll
 
 Features
 
-Sentiment Analysis: Detects user sentiment (positive, negative, neutral) to adjust responses.
-Dynamic Responses: Generates answers using Llama 2 when questions aren't in the QA dataset.
-Interactive UI: Built with Gradio for a user-friendly web interface.
-QA Dataset: Maintains a CSV file for pre-defined question-answer pairs.
+Sentiment Analysis:
+Detects user sentiment (positive, negative, neutral) to adjust responses.
+
+Dynamic Responses: 
+Generates answers using Llama 2 when questions aren't in the QA dataset.
+
+Interactive UI: 
+Built with Gradio for a user-friendly web interface.
+
+QA Dataset: 
+Maintains a CSV file for pre-defined question-answer pairs.
 
 Tools
 Google Colab, Python, Hugging Face Transformers, Gradio, Pandas
 
 Setup
 Import libraries and log in to Hugging Face.
+
 Create/load QA dataset.
 Initialize Llama 2 and sentiment models.
 Implement functions and create Gradio interface.
